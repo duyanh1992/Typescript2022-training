@@ -1,8 +1,7 @@
 var person = {
-    hobbies: ['reading', 'playing'],
-    role: [2, 'author']
+    hobbies: ['reading', 'playing']
 };
-// for (const hobby of person.hobbies) {
-//   console.log(hobby.toUpperCase());
-// }
-person.role[0] = 'ABC';
+for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
+    var hobby = _a[_i];
+    console.log(hobby.toUpperCase());
+}
